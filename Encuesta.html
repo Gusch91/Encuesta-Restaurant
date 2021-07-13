@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Encuesta Restaurant "El Rancho"</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+<body>
+
+<main>
+    <h1 id="title">Encuesta restaurant "El Rancho"</h1>
+    <p id="description">Complete la encuesta y participe por el sorteo de una cena para dos!
+    </p>
+  
+    <form id="survey-form">
+      <div id="datos">
+        <label id="name-label" for="name">Nombre</label>
+        <input id="name" type="text" placeholder="ingrese su nombre" required><br>
+  
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" placeholder="ingrese su email" required><br>
+  
+        <label id="number-label" for="number">Edad</label>
+        <input id="number" type="number" min="10" max="110" placeholder="ingrese su edad"><br>
+      </div>
+  
+      <div id="desplegable1">
+        <label for="compania">como suele asistir al restaurant?</label>
+        <select id="dropdown">
+          <option value="solo">Solo</option>
+          <option value="acompañado">Acompañado</option>
+          <option value="ambos">Ambos</option>
+        </select>
+      </div>
+  
+      <div id="botones1">
+        <p>Recomendaria el restaurante a su familia o amigos?</p>
+        <label for="si">si</label>
+        <input type="radio" id="si" name="recomienda" value="si"><br>
+  
+        <label for="no">no</label>
+        <input type="radio" id="no" name="recomienda" value="no"><br>
+  
+        <label for="no se">no se</label>
+        <input type="radio" id="no se" name="recomienda" value="no se"><br>
+      </div>
+  
+      <div id="desplegable2">
+        <label id="dropdown2" for="horario">en que horario disfruta mas venir al restaurant</label>
+        <select id="horario">
+          <option value="desayunos/meriendas">desayunos y meriendas</option>
+          <option value="almuerzo">Almuerzo</option>
+          <option value="cena">cena</option>
+        </select>
+      </div>
+  
+      <p>En que crees que debemos mejorar? <i>selecciona las opciones que creas necesarias</i> </p>
+  
+      <div id="casillas">
+        <input type="checkbox" id="calidad" value="calidad">
+        <label for="calidad">calidad de la comida</label><br>
+  
+        <input type="checkbox" id="limpieza" value="limpieza">
+        <label for="limpieza">limpieza de las instalaciones</label><br>
+  
+        <input type="checkbox" id="atencion" value="atencion">
+        <label for="atencion">atención al publico</label><br>
+  
+        <input type="checkbox" id="redes" value="redes">
+        <label for="redes">actividad en redes sociales</label><br>
+  
+        <input type="checkbox" id="horarios" value="horarios">
+        <label for="horarios">horarios de atención</label><br>
+      </div>
+  
+      <label for="opinion">escriba su opinión o sugerencia:</label><br>
+      <textarea id="opinion" name="opinion"></textarea><br>
+  
+      <div id="button">
+        <button id="submit" type="submit" name="submit">Enviar</button>
+      </div>
+  
+    </form>
+  
+  </main>
+
+  </body>
+
+  </html>
