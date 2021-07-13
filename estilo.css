@@ -1,0 +1,72 @@
+main {
+    background-image:url("https://image.freepik.com/foto-gratis/textura-fondo-madera-suave-marron_34515-14.jpg")
+      
+  
+  }
+  
+  h1 { text-align:center;
+  color:black;
+  font-family:harlow solid;
+    padding-top:30px;
+    margin:0px;
+    font-size:40px;
+    text-decoration:underline;
+    
+  }
+  
+  p {
+     text-align:center;
+  color:black;
+  font-family:verdana;
+  }
+  
+  #survey-form {
+    background-color:#db9c2e;
+    border-radius:20px;
+    padding:35px 25%;
+    margin: 40px;
+    border:double 5px brown
+  }
+  #datos {
+   display:flex;
+    flex-direction:column;
+    margin:10px;
+    
+  }
+  
+  label {
+    font-size:20px;
+  }
+  
+  #desplegable1 ,#desplegable2{
+    border-radius:2%;
+    border:solid 2px black;
+    padding:10px;
+      text-align:center;
+  }
+  
+  #botones1 {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:20px;
+  }
+  
+  #casillas {
+    margin:10%;
+  }
+  
+  textarea {
+    width:100%  
+  }
+  
+  #submit {
+    font-size:18px;
+    border:double 5px brown;
+    border-radius:8%;
+    margin: 15px 50%;
+    }
+  #submit:hover {background-color: #fc3903}
+  
+  #submit:active {
+    background-color: #fc3903;}
